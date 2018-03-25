@@ -29,8 +29,7 @@ ul {
     color: #ffffff;
 }
 
-
-.dark{
+.dark {
     padding: 15px;
     background: #35424a;
     color: #ffffff;
@@ -149,17 +148,33 @@ header .current {
     height: 90px;
 }
 
-
 /* Sidebar */
-aside#sidebar{
+
+aside#sidebar {
     float: right;
     width: 30%;
     margin-top: 10px;
 }
 
-article#main-col{
-    float:left;
+article#main-col {
+    float: left;
     width: 65%;
+}
+
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+/* Services */
+
+ul#services li {
+    list-style: none;
+    border: #cccccc 1px solid;
+    padding: 20px;
+    background: #e6e6e6;
+    margin-bottom: 5px;
 }
 
 /* Footer */
