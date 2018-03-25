@@ -140,3 +140,12 @@ header .current {
     height: 90px;
 }
 
+/* Footer */
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #e8491d;
+}
