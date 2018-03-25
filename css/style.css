@@ -56,16 +56,36 @@ header nav {
     margin-top: 10px;
 }
 
-header .highlight, header .current a {
+header .highlight,
+header .current a {
     color: #e8491d;
     font-weight: bold;
 }
 
-header a:hover{
+header a:hover {
     color: #CCCCCC;
     font-weight: bold;
 }
 
 header .current {
     padding-left: 0;
+}
+
+/* showcase */
+
+#showcase {
+    min-height: 400px;
+    background: url('../img/New-Computer-2.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
 }
