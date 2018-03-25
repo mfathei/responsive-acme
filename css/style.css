@@ -20,7 +20,7 @@ ul {
     margin: 0;
 }
 
-.button_1{
+.button_1 {
     height: 38px;
     background: #e8491d;
     border: 0;
@@ -116,8 +116,27 @@ header .current {
     margin-top: 15px;
 }
 
-#newsletter input[type="email"]{
+#newsletter input[type="email"] {
     height: 25px;
     width: 250px;
     padding: 4px;
 }
+
+/* Boxes */
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes img {
+    width: 90px;
+    height: 90px;
+}
+
